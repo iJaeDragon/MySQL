@@ -8,12 +8,13 @@ ref : https://velog.io/@gclee/CentOS-7-MySQL-%EC%84%A4%EC%B9%98
 # yum install mysql-server
 ```
 
-### MySQL 포트 변경
+### MySQL 설정 변경
 ```
 # vi /etc/my.cnf
 
 [mysqld]
-port=3306
+port=3306 <- 포트설정
+lower_case_table_names=1 <- 대소문자 구분 X
 ```
 
 ### MySQL 방화벽 추가
