@@ -89,6 +89,7 @@ mysql> create user '[아아디]'@'%' identified by '[비밀번호]';
 ### MySQL 권한 부여
 ```
 mysql> grant all privileges on [DB이름].* to '[아이디]'@'%';
+mysql> flush privileges; // <- 적용
 ```
 
 
