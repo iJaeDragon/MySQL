@@ -1,5 +1,6 @@
 # CentOS7
 
+ref : https://velog.io/@gclee/CentOS-7-MySQL-%EC%84%A4%EC%B9%98
 
 ### MySQL 설치
 ```
